@@ -373,7 +373,7 @@ public class PrivacyGuardManager extends SettingsPreferenceFragment
         inflater.inflate(R.menu.privacy_guard_manager, menu);
         menu.findItem(R.id.privacy_guard_default).setChecked(
                 LineageSettings.Secure.getInt(getContentResolver(),
-                LineageSettings.Secure.PRIVACY_GUARD_DEFAULT, 0) == 1);
+                LineageSettings.Secure.PRIVACY_GUARD_DEFAULT, 1) == 1);
         menu.findItem(R.id.privacy_guard_notification).setChecked(
                 LineageSettings.Secure.getInt(getContentResolver(),
                 LineageSettings.Secure.PRIVACY_GUARD_NOTIFICATION, 1) == 1);

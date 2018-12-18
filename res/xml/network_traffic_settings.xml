@@ -30,7 +30,7 @@
         android:key="network_traffic_autohide"
         android:title="@string/network_traffic_autohide"
         android:summary="@string/network_traffic_autohide_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <DropDownPreference
         android:key="network_traffic_units"

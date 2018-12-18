@@ -39,7 +39,7 @@
                 android:key="navigation_bar_menu_arrow_keys"
                 android:title="@string/navigation_bar_arrow_keys_title"
                 android:summary="@string/navigation_bar_arrow_keys_summary"
-                android:defaultValue="false" />
+                android:defaultValue="true" />
 
         <PreferenceScreen
             android:key="navigation_bar"
@@ -92,7 +92,7 @@
             android:key="torch_long_press_power_gesture"
             android:title="@string/torch_long_press_power_gesture_title"
             android:summary="@string/torch_long_press_power_gesture_desc"
-            android:defaultValue="false"
+            android:defaultValue="true"
             lineage:requiresConfig="@*android:bool/config_supportLongPressPowerWhenNonInteractive" />
 
         <ListPreference

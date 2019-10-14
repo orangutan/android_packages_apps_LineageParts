@@ -17,7 +17,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <lineageos.preference.LineageSystemSettingListPreference
-        android:defaultValue="0"
+        android:defaultValue="3"
         android:entries="@array/style_entries"
         android:entryValues="@array/style_values"
         android:key="berry_global_style"
@@ -30,7 +30,7 @@
         android:title="@string/style_accent_title" />
 
     <lineageos.preference.LineageSystemSettingListPreference
-        android:defaultValue="org.lineageos.overlay.dark"
+        android:defaultValue="org.lineageos.overlay.black"
         android:entries="@array/dark_overlay_entries"
         android:entryValues="@array/dark_overlay_values"
         android:key="berry_dark_overlay"

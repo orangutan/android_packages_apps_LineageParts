@@ -50,7 +50,7 @@
             android:key="trust_restrict_usb"
             android:title="@string/trust_restrict_usb_title"
             android:summary="@string/trust_restrict_usb_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="lineagestats" />

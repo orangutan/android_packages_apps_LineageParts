@@ -24,6 +24,6 @@
         android:key="touchscreen_gesture_haptic_feedback"
         android:title="@string/touchscreen_gestures_haptic_feedback_title"
         android:summary="@string/touchscreen_gestures_haptic_feedback_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
 </PreferenceScreen>

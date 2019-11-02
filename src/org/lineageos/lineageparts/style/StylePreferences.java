@@ -204,7 +204,7 @@ public class StylePreferences extends SettingsPreferenceFragment {
     private void setupStylePref() {
         int preference = LineageSettings.System.getInt(getContext().getContentResolver(),
                 LineageSettings.System.BERRY_GLOBAL_STYLE,
-                StyleInterface.STYLE_GLOBAL_AUTO_WALLPAPER);
+                StyleInterface.STYLE_GLOBAL_DARK);
         String handlerPackage = LineageSettings.System.getString(getContext().getContentResolver(),
                 LineageSettings.System.BERRY_MANAGED_BY_APP);
 
